@@ -3,17 +3,31 @@ box-sizing: border-box;
 }
 
 body {
-margin: 50px;
 background-image: url("../images/alexander-andrews-511680-unsplash.jpg");
 background-repeat: no-repeat;
-background-size:85%;
+background-size:960px;
+-webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
+background-size: cover;
 
 
 }
 h1, h2, div {
+    text-align: center;
     font-family: 'Times New Roman', Times, serif;
     color: #eee;
     font-size: 40px;
-    border: solid teal 1px;
     margin: 5px;
+}
+h1{
+    margin-top:100px;
+    border: solid teal 7px;
+}
+h2{
+    border: solid rgb(70, 134, 134) 5px;
+    margin-bottom: 50px;
+}
+div{
+    border: solid rgb(132, 156, 156) 3px;
 }
