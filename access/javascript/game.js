@@ -1,6 +1,8 @@
 // creating variable to hol the number of wins and losses as the computer and user interact
 var wins = 0;
 var losses= 0;
+var guessesLeft= 10;
+var guessedLetters= [];
 
 // determines which key was pressed by the user
 var userGuess = event.key;
@@ -15,7 +17,16 @@ var randomLetterList = ["a", "b", "c", "d", "e",
  var randomLetter = randomLetterList[Math.floor(math.random() * randomLetterList.length)];
 if (userGuess === randomLetter) {
     wins++
+    guessesLeft = 10;
+    guessedLetters = [];
 }
-else 
-
- var guessedLetters = [ userGuess];
+if (userGuess != randomLetter){
+    guessesLeft -1;
+    guessedletters.push(userGuess);
+}
+if (guessesLeft === 0){
+    guessesLeft = 10;
+    losses ++;
+    guessedLetters = [];
+}
+//  var guessedLetters = [userGuess];

@@ -1,15 +1,19 @@
-/* *  {
+*  {
 box-sizing: border-box;
-} */
+}
 
 body {
+margin: 50px;
 background-image: url("../images/alexander-andrews-511680-unsplash.jpg");
 background-repeat: no-repeat;
 background-size:85%;
+
 
 }
 h1, h2, div {
     font-family: 'Times New Roman', Times, serif;
     color: #eee;
     font-size: 40px;
+    border: solid teal 1px;
+    margin: 5px;
 }
