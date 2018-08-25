@@ -48,5 +48,5 @@ var html =
 document.querySelector('#game').innerHTML = html;
 
 
-//  var guessedLetters = [userGuess];
 }
+// I need to get the wins score, losses score, letters guesses and guesses left to show up on my HTML.
