@@ -8,24 +8,37 @@
 </head>
 
 <body>
-    <h1 class="container" id="game">
-        Hello there!!!
-    </h1>
-    <h2>
-        Can you guuess what letter I'm thinking of?
-    </h2>
-    <div id='playerWins'>
-        Wins 
-    </div>
-    <div id='playerLosses'> 
-        Losses
-    </div>
-    <div id='guessLeft'>
-        Guesses Left
-    </div id='guessMade'>
-    <div>
-        Guesses Made
-    </div>
+    <!-- Page Title -->
+        <h1 id="game">
+            The Psychic Game
+        </h1>
+        <h1>
+            Hello there!!!
+        </h1>
+    <!-- Intro to Game Premis -->
+        <h2>
+            Can you guuess what letter I'm thinking of?
+        </h2>
+    <!-- Tracking Player Game Wins -->
+        <div>
+            Wins:
+            <span id='playerWins'>0</span>
+        </div>
+    <!-- Tracking Player Game Losses -->
+        <div> 
+            Losses:
+            <span id="playerLosses">0</span>
+        </div>
+    <!-- Post the Number of Guesses Left -->
+        <div>
+            Guesses Left:
+            <span id="guessesLeft">0</span>
+        </div>
+    <!-- Post the Number of Guesses Made -->
+        <div>
+            Guesses Made:
+            <span id="guessesMade">0</span>
+        </div>
   <script src="access/javascript/game.js"> </script>
 </body>
 </html>
