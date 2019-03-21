@@ -24,10 +24,10 @@ h1, h2, div {
     text-align: center;
     font-family: 'Times New Roman', Times, serif;
     color: #eee;
-    margin: 5px;
+    margin: 15px;
 }
 #game {
-    margin-top:100px;  
+    margin-top:80px;  
     font-size: 5em;
 }
 h1 {
