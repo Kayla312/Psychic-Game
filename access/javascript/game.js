@@ -97,10 +97,10 @@ document.onkeyup = function(itsHappening) {
     updateGuessesLeft();
     updateGuessesMade();
     console.log(chosenLetter);
-    console.log(computerLetter);
+    console.log(randomLetter);
 
     // Checking to see if the users guess matches the computers assigned random letter
-    if(computerLetter === chosenLetter){
+    if(randomLetter === chosenLetter){
         // Let the user know that they guess the right letter
         alert("Nicely done! Thats the letter I was thinking of!");
         // Then update the score to show that the user won
