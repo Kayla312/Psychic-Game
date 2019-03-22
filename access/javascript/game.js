@@ -1,8 +1,11 @@
-// creating variable to hol the number of wins and losses as the computer and user interact
+// creating variable to hold the number of wins and losses as the computer and user interact
 var wins = 0;
 var losses= 0;
+// Variable to count down number of guesses
 var guessesLeft= 10;
-var computerLetter=[];
+// random letter that is chosen goes into this array
+var computerLetter = [];
+// array that holds the letters that have been guess by the user
 var guessedLetters= [];
 
 // list of possible letters for the computer to choose from as an unknown letter
